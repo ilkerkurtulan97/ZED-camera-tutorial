@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_tutorial_pos_tracking
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.148s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.604s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.759s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Looking for pthread.h
+[0.855s] -- Looking for pthread.h - found
+[0.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.905s] -- Found Threads: TRUE  
+[1.044s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.060s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.061s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.061s] -- Configured cppcheck include dirs: 
+[1.061s] -- Configured cppcheck exclude dirs and/or files: 
+[1.062s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.062s] -- Configured cpplint exclude dirs and/or files: 
+[1.063s] -- Added test 'lint_cmake' to check CMake code style
+[1.063s] -- Added test 'uncrustify' to check C / C++ code style
+[1.063s] -- Configured uncrustify additional arguments: 
+[1.064s] -- Added test 'xmllint' to check XML markup files
+[1.064s] -- Added test 'clang_format' to check C / C++ code style
+[1.065s] -- Configuring done
+[1.076s] -- Generating done
+[1.079s] -- Build files have been written to: /home/iko/zed_ws/build/zed_tutorial_pos_tracking
+[1.089s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_tutorial_pos_tracking
+[1.090s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_tutorial_pos_tracking -- -j16 -l16
+[1.116s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[14.765s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[14.911s] [100%] Built target zed_tutorial_pos_tracking
+[14.917s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_tutorial_pos_tracking -- -j16 -l16
+[14.919s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_tutorial_pos_tracking
+[14.922s] -- Install configuration: "Release"
+[14.922s] -- Execute custom install script
+[14.922s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[14.926s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[14.929s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[14.933s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[14.935s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[14.939s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[14.942s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[14.946s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[14.949s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[14.952s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[14.955s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[14.959s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[14.963s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[14.967s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[14.971s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[14.975s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[14.980s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_tutorial_pos_tracking

@@ -1,0 +1,98 @@
+[0.009s] Invoking command in '/home/iko/zed_ws/build/zed_aruco_localization': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/examples/zed_aruco_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_aruco_localization
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.243s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[0.246s] -- Looking for sgemm_
+[0.295s] -- Looking for sgemm_ - not found
+[0.296s] -- Looking for pthread.h
+[0.352s] -- Looking for pthread.h - found
+[0.352s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.406s] -- Found Threads: TRUE  
+[0.434s] -- Looking for sgemm_
+[0.520s] -- Looking for sgemm_ - found
+[0.520s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.542s] -- Found CUDA: /usr/local/cuda (found suitable version "12.2", minimum required is "12") 
+[0.593s] -- Found CUDA: /usr/local/cuda (found version "12.2") 
+[0.595s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.839s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.887s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.994s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.998s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.005s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.141s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.167s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.400s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.401s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.401s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.558s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.586s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.586s] -- Configured cppcheck include dirs: /home/iko/zed_ws/src/zed-ros2-examples/examples/zed_aruco_localization/src/include;/home/iko/zed_ws/src/zed-ros2-examples/examples/zed_aruco_localization/src/component/include
+[1.586s] -- Configured cppcheck exclude dirs and/or files: 
+[1.588s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.588s] -- Configured cpplint exclude dirs and/or files: 
+[1.589s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.590s] -- Added test 'lint_cmake' to check CMake code style
+[1.591s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.593s] -- Added test 'uncrustify' to check C / C++ code style
+[1.593s] -- Configured uncrustify additional arguments: 
+[1.593s] -- Added test 'xmllint' to check XML markup files
+[1.595s] -- Added test 'clang_format' to check C / C++ code style
+[1.599s] -- Configuring done
+[1.621s] -- Generating done
+[1.627s] -- Build files have been written to: /home/iko/zed_ws/build/zed_aruco_localization
+[1.643s] Invoked command in '/home/iko/zed_ws/build/zed_aruco_localization' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/examples/zed_aruco_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_aruco_localization
+[1.645s] Invoking command in '/home/iko/zed_ws/build/zed_aruco_localization': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_aruco_localization -- -j16 -l16
+[1.675s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_aruco_localization_component.dir/src/component/src/aruco.cpp.o[0m
+[1.676s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_aruco_localization_component.dir/src/component/src/zed_aruco_localization_component.cpp.o[0m
+[9.250s] [100%] [32m[1mLinking CXX shared library libzed_aruco_localization_component.so[0m
+[9.419s] [100%] Built target zed_aruco_localization_component
+[9.425s] Invoked command in '/home/iko/zed_ws/build/zed_aruco_localization' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_aruco_localization -- -j16 -l16
+[9.426s] Invoking command in '/home/iko/zed_ws/build/zed_aruco_localization': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_aruco_localization
+[9.430s] -- Install configuration: "Release"
+[9.430s] -- Execute custom install script
+[9.430s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/lib/libzed_aruco_localization_component.so
+[9.435s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/include/zed_aruco_localization//aruco_loc_visibility_control.hpp
+[9.439s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/include/zed_aruco_localization//aruco.hpp
+[9.443s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/include/zed_aruco_localization//zed_aruco_localization_component.hpp
+[9.447s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/launch/zed_aruco_loc.launch.py
+[9.452s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/config/aruco_loc.yaml
+[9.457s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/rviz2/aruco.rviz
+[9.461s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/library_path.sh
+[9.465s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/library_path.dsv
+[9.470s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/ament_index/resource_index/package_run_dependencies/zed_aruco_localization
+[9.474s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/ament_index/resource_index/parent_prefix_path/zed_aruco_localization
+[9.479s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.sh
+[9.483s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/ament_prefix_path.dsv
+[9.487s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.sh
+[9.490s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/environment/path.dsv
+[9.494s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.bash
+[9.498s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.sh
+[9.502s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.zsh
+[9.506s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/local_setup.dsv
+[9.510s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.dsv
+[9.514s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/ament_index/resource_index/packages/zed_aruco_localization
+[9.518s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/ament_index/resource_index/rclcpp_components/zed_aruco_localization
+[9.522s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.526s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[9.529s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.533s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig.cmake
+[9.537s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/cmake/zed_aruco_localizationConfig-version.cmake
+[9.542s] -- Symlinking: /home/iko/zed_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.xml
+[9.548s] Invoked command in '/home/iko/zed_ws/build/zed_aruco_localization' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_aruco_localization

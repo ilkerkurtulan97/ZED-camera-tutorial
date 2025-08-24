@@ -1,0 +1,72 @@
+[0.012s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_tutorial_depth
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.218s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.621s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.624s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.630s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.753s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.779s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.820s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.828s] -- Looking for pthread.h
+[0.878s] -- Looking for pthread.h - found
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.933s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.933s] -- Found Threads: TRUE  
+[0.995s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.011s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.012s] -- Configured cppcheck include dirs: 
+[1.012s] -- Configured cppcheck exclude dirs and/or files: 
+[1.013s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.013s] -- Configured cpplint exclude dirs and/or files: 
+[1.013s] -- Added test 'lint_cmake' to check CMake code style
+[1.014s] -- Added test 'uncrustify' to check C / C++ code style
+[1.014s] -- Configured uncrustify additional arguments: 
+[1.014s] -- Added test 'xmllint' to check XML markup files
+[1.015s] -- Added test 'clang_format' to check C / C++ code style
+[1.016s] -- Configuring done
+[1.025s] -- Generating done
+[1.028s] -- Build files have been written to: /home/iko/zed_ws/build/zed_tutorial_depth
+[1.037s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_depth_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_tutorial_depth
+[1.039s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_tutorial_depth -- -j16 -l16
+[1.066s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_depth.dir/src/zed_depth_sub_tutorial.cpp.o[0m
+[11.303s] [100%] [32m[1mLinking CXX executable zed_tutorial_depth[0m
+[11.427s] [100%] Built target zed_tutorial_depth
+[11.432s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_tutorial_depth -- -j16 -l16
+[11.434s] Invoking command in '/home/iko/zed_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_tutorial_depth
+[11.437s] -- Install configuration: "Release"
+[11.437s] -- Execute custom install script
+[11.437s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[11.441s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[11.445s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[11.449s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[11.454s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[11.459s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[11.463s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[11.467s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[11.470s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[11.474s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[11.478s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[11.481s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[11.485s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[11.489s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[11.492s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[11.496s] -- Symlinking: /home/iko/zed_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[11.502s] Invoked command in '/home/iko/zed_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_tutorial_depth

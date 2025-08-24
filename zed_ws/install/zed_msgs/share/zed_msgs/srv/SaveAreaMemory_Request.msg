@@ -1,0 +1,1 @@
+/home/iko/zed_ws/build/zed_msgs/rosidl_cmake/srv/SaveAreaMemory_Request.msg

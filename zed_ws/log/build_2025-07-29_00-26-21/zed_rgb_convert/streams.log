@@ -1,0 +1,97 @@
+[0.010s] Invoking command in '/home/iko/zed_ws/build/zed_rgb_convert': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_rgb_convert
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.240s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.243s] -- Looking for sgemm_
+[0.293s] -- Looking for sgemm_ - not found
+[0.294s] -- Looking for pthread.h
+[0.349s] -- Looking for pthread.h - found
+[0.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.402s] -- Found Threads: TRUE  
+[0.433s] -- Looking for sgemm_
+[0.517s] -- Looking for sgemm_ - found
+[0.518s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.540s] -- Found CUDA: /usr/local/cuda (found suitable version "12.2", minimum required is "12") 
+[0.591s] -- Found CUDA: /usr/local/cuda (found version "12.2") 
+[0.593s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.836s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.885s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.991s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.995s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.002s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.140s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.165s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.400s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.401s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.401s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.554s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.600s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.601s] -- Configured cppcheck include dirs: /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/include;/home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/component/include
+[1.602s] -- Configured cppcheck exclude dirs and/or files: 
+[1.603s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.603s] -- Configured cpplint exclude dirs and/or files: 
+[1.604s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.604s] -- Added test 'lint_cmake' to check CMake code style
+[1.605s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.606s] -- Added test 'uncrustify' to check C / C++ code style
+[1.606s] -- Configured uncrustify additional arguments: 
+[1.606s] -- Added test 'xmllint' to check XML markup files
+[1.608s] -- Added test 'clang_format' to check C / C++ code style
+[1.611s] -- Configuring done
+[1.671s] -- Generating done
+[1.681s] -- Build files have been written to: /home/iko/zed_ws/build/zed_rgb_convert
+[1.702s] Invoked command in '/home/iko/zed_ws/build/zed_rgb_convert' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_rgb_convert
+[1.704s] Invoking command in '/home/iko/zed_ws/build/zed_rgb_convert': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_rgb_convert -- -j16 -l16
+[1.733s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_rgb_convert_component.dir/src/component/src/zed_rgb_convert_component.cpp.o[0m
+[6.330s] [ 50%] [32m[1mLinking CXX shared library libzed_rgb_convert_component.so[0m
+[6.479s] [ 50%] Built target zed_rgb_convert_component
+[6.494s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_rgb_convert.dir/src/container/zed_rgb_convert.cpp.o[0m
+[11.635s] [100%] [32m[1mLinking CXX executable zed_rgb_convert[0m
+[11.917s] [100%] Built target zed_rgb_convert
+[11.923s] Invoked command in '/home/iko/zed_ws/build/zed_rgb_convert' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_rgb_convert -- -j16 -l16
+[11.924s] Invoking command in '/home/iko/zed_ws/build/zed_rgb_convert': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_rgb_convert
+[11.928s] -- Install configuration: "Release"
+[11.928s] -- Execute custom install script
+[11.929s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/lib/zed_rgb_convert/zed_rgb_convert
+[11.933s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/lib/libzed_rgb_convert_component.so
+[11.937s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/include/zed_rgb_convert//cvt_visibility_control.hpp
+[11.942s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/launch/zed_rgb_convert.launch.py
+[11.946s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/library_path.sh
+[11.950s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/library_path.dsv
+[11.955s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/ament_index/resource_index/package_run_dependencies/zed_rgb_convert
+[11.960s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/ament_index/resource_index/parent_prefix_path/zed_rgb_convert
+[11.963s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/ament_prefix_path.sh
+[11.968s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/ament_prefix_path.dsv
+[11.971s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/path.sh
+[11.975s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/path.dsv
+[11.980s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.bash
+[11.984s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.sh
+[11.987s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.zsh
+[11.991s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.dsv
+[11.995s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.dsv
+[12.000s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/ament_index/resource_index/packages/zed_rgb_convert
+[12.003s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/ament_index/resource_index/rclcpp_components/zed_rgb_convert
+[12.007s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.012s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_libraries-extras.cmake
+[12.016s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.020s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/zed_rgb_convertConfig.cmake
+[12.024s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/zed_rgb_convertConfig-version.cmake
+[12.028s] -- Symlinking: /home/iko/zed_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.xml
+[12.033s] Invoked command in '/home/iko/zed_ws/build/zed_rgb_convert' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_rgb_convert

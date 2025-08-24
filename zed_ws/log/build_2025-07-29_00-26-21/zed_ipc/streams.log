@@ -1,0 +1,85 @@
+[0.013s] Invoking command in '/home/iko/zed_ws/build/zed_ipc': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_ipc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_ipc
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.245s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.691s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.696s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.704s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.776s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.859s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.889s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Looking for pthread.h
+[0.998s] -- Looking for pthread.h - found
+[0.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.058s] -- Found Threads: TRUE  
+[1.153s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.181s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.182s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.183s] -- Configured cppcheck include dirs: /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_ipc/src/include;/home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_ipc/src/component/include;/home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_ipc/src/components/include
+[1.183s] -- Configured cppcheck exclude dirs and/or files: 
+[1.184s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.184s] -- Configured cpplint exclude dirs and/or files: 
+[1.185s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.186s] -- Added test 'lint_cmake' to check CMake code style
+[1.186s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.187s] -- Added test 'uncrustify' to check C / C++ code style
+[1.187s] -- Configured uncrustify additional arguments: 
+[1.188s] -- Added test 'xmllint' to check XML markup files
+[1.189s] -- Added test 'clang_format' to check C / C++ code style
+[1.192s] -- Configuring done
+[1.204s] -- Generating done
+[1.207s] -- Build files have been written to: /home/iko/zed_ws/build/zed_ipc
+[1.218s] Invoked command in '/home/iko/zed_ws/build/zed_ipc' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/tutorials/zed_ipc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_ipc
+[1.220s] Invoking command in '/home/iko/zed_ws/build/zed_ipc': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_ipc -- -j16 -l16
+[1.249s] [ 33%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/winavg.cpp.o[0m
+[1.249s] [ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_component.dir/src/components/src/pointcloud_component.cpp.o[0m
+[9.674s] [100%] [32m[1mLinking CXX shared library libpointcloud_component.so[0m
+[9.783s] [100%] Built target pointcloud_component
+[9.789s] Invoked command in '/home/iko/zed_ws/build/zed_ipc' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_ipc -- -j16 -l16
+[9.791s] Invoking command in '/home/iko/zed_ws/build/zed_ipc': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_ipc
+[9.794s] -- Install configuration: "Release"
+[9.794s] -- Execute custom install script
+[9.795s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/lib/libpointcloud_component.so
+[9.799s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/include/zed_ipc//ipc_visibility_control.hpp
+[9.802s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/include/zed_ipc//pointcloud_component.hpp
+[9.806s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/include/zed_ipc//winavg.hpp
+[9.809s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/launch/zed_ipc.launch.py
+[9.813s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/library_path.sh
+[9.818s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/library_path.dsv
+[9.822s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/ament_index/resource_index/package_run_dependencies/zed_ipc
+[9.825s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/ament_index/resource_index/parent_prefix_path/zed_ipc
+[9.829s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/ament_prefix_path.sh
+[9.834s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/ament_prefix_path.dsv
+[9.837s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/path.sh
+[9.840s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/environment/path.dsv
+[9.843s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/local_setup.bash
+[9.846s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/local_setup.sh
+[9.850s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/local_setup.zsh
+[9.853s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/local_setup.dsv
+[9.858s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/package.dsv
+[9.861s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/ament_index/resource_index/packages/zed_ipc
+[9.864s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/ament_index/resource_index/rclcpp_components/zed_ipc
+[9.868s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.871s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/cmake/ament_cmake_export_libraries-extras.cmake
+[9.875s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.879s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/cmake/zed_ipcConfig.cmake
+[9.883s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/cmake/zed_ipcConfig-version.cmake
+[9.886s] -- Symlinking: /home/iko/zed_ws/install/zed_ipc/share/zed_ipc/package.xml
+[9.893s] Invoked command in '/home/iko/zed_ws/build/zed_ipc' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_multi_camera:/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_ipc

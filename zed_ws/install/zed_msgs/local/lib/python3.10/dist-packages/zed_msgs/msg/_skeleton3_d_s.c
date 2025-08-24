@@ -1,0 +1,1 @@
+/home/iko/zed_ws/build/zed_msgs/rosidl_generator_py/zed_msgs/msg/_skeleton3_d_s.c

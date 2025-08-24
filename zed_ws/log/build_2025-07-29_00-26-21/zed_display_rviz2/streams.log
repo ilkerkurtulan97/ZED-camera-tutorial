@@ -1,0 +1,50 @@
+[0.015s] Invoking command in '/home/iko/zed_ws/build/zed_display_rviz2': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/zed_display_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_display_rviz2
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.685s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.710s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.711s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.711s] -- Added test 'lint_cmake' to check CMake code style
+[0.711s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.712s] -- Added test 'xmllint' to check XML markup files
+[0.714s] -- Configuring done
+[0.718s] -- Generating done
+[0.719s] -- Build files have been written to: /home/iko/zed_ws/build/zed_display_rviz2
+[0.724s] Invoked command in '/home/iko/zed_ws/build/zed_display_rviz2' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/iko/zed_ws/src/zed-ros2-examples/zed_display_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iko/zed_ws/install/zed_display_rviz2
+[0.726s] Invoking command in '/home/iko/zed_ws/build/zed_display_rviz2': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_display_rviz2 -- -j16 -l16
+[0.743s] Invoked command in '/home/iko/zed_ws/build/zed_display_rviz2' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/iko/zed_ws/build/zed_display_rviz2 -- -j16 -l16
+[0.745s] Invoking command in '/home/iko/zed_ws/build/zed_display_rviz2': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_display_rviz2
+[0.747s] -- Install configuration: ""
+[0.748s] -- Execute custom install script
+[0.748s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/launch/display_zed_cam.launch.py
+[0.752s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/rviz2/zed_mono.rviz
+[0.755s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/rviz2/zed_stereo.rviz
+[0.758s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/ament_index/resource_index/package_run_dependencies/zed_display_rviz2
+[0.762s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/ament_index/resource_index/parent_prefix_path/zed_display_rviz2
+[0.766s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/environment/ament_prefix_path.sh
+[0.770s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/environment/ament_prefix_path.dsv
+[0.773s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/environment/path.sh
+[0.776s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/environment/path.dsv
+[0.780s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.bash
+[0.784s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.sh
+[0.787s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.zsh
+[0.791s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/local_setup.dsv
+[0.795s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.dsv
+[0.800s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/ament_index/resource_index/packages/zed_display_rviz2
+[0.804s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/cmake/zed_display_rviz2Config.cmake
+[0.808s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/cmake/zed_display_rviz2Config-version.cmake
+[0.812s] -- Symlinking: /home/iko/zed_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.xml
+[0.818s] Invoked command in '/home/iko/zed_ws/build/zed_display_rviz2' returned '0': AMENT_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iko/zed_ws/install/zed_wrapper:/home/iko/zed_ws/install/zed_components:/home/iko/zed_ws/install/zed_msgs:/home/iko/orbslam_ws/ORB_SLAM3:/home/iko/zed_ws/install/zed_tutorial_video:/home/iko/zed_ws/install/zed_tutorial_pos_tracking:/home/iko/zed_ws/install/zed_tutorial_depth:/opt/ros/humble LD_LIBRARY_PATH=/home/iko/zed_ws/install/zed_components/lib:/home/iko/zed_ws/install/zed_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/iko/orbslam_ws/ORB_SLAM3/lib PYTHONPATH=/home/iko/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/iko/zed_ws/build/zed_display_rviz2

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f18a881ec19148464ce6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "zed_msgs__py",
+					"jsonFile" : "directory-zed_msgs__py-073522a03dd8e4d73751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/iko/zed_ws/build/zed_msgs/zed_msgs__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zed_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_msgs_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_msgs_files-e63683e630be36b29c03.json",
+					"name" : "all_zed_msgs_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_zed_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_zed_msgs_egg-494395946fda5dc9e7a1.json",
+					"name" : "ament_cmake_python_build_zed_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_zed_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_zed_msgs-46155a440ae40fdfbd93.json",
+					"name" : "ament_cmake_python_symlink_zed_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2b2e6e64c61546c88565.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs-aa4dd9f1fb9766b39ab7.json",
+					"name" : "zed_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__cpp-68917c0ef25f0650e211.json",
+					"name" : "zed_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zed_msgs__py::@b73c147196348a6ee048",
+					"jsonFile" : "target-zed_msgs__py-abd5101b489a14e7d915.json",
+					"name" : "zed_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_generator_c-22fa5147433b43cc1233.json",
+					"name" : "zed_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_generator_py-5df70e47aca5478eddf1.json",
+					"name" : "zed_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_c-1921184d35b508e2b30d.json",
+					"name" : "zed_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_c__pyext-a92eddf109a3b5409047.json",
+					"name" : "zed_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_cpp-142d98c496835c5aa6f1.json",
+					"name" : "zed_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_c-c69ec09d0f47af47fb2e.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_c__pyext-85af5c79b2eaf81296b6.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_fastrtps_cpp-7744550d77ef380c93ca.json",
+					"name" : "zed_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_c-d40196dcbc32979d2d1b.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_c__pyext-7b11be84d962d2f5e641.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs__rosidl_typesupport_introspection_cpp-390850ebb2ee5e6626b3.json",
+					"name" : "zed_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_msgs_uninstall-38edf29dc8d28696ffca.json",
+					"name" : "zed_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iko/zed_ws/build/zed_msgs",
+		"source" : "/home/iko/zed_ws/src/zed-ros2-interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

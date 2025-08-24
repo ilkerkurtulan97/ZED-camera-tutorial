@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1c4817e04596b87f40fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_components",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_components_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_components_files-Release-63076eb9453737c85cb4.json",
+					"name" : "all_zed_components_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-619fca2ff2e5f3d5750c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_component-Release-966e9f57a497198c91a5.json",
+					"name" : "zed_camera_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_camera_one_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_camera_one_component-Release-c6e9be5095a1f7f7211e.json",
+					"name" : "zed_camera_one_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_components_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_components_uninstall-Release-a5d60204842df667c480.json",
+					"name" : "zed_components_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iko/zed_ws/build/zed_components",
+		"source" : "/home/iko/zed_ws/src/zed-ros2-wrapper/zed_components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

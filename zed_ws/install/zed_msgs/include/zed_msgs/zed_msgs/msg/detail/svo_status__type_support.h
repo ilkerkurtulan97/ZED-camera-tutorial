@@ -1,0 +1,1 @@
+/home/iko/zed_ws/build/zed_msgs/rosidl_generator_c/zed_msgs/msg/detail/svo_status__type_support.h
