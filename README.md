@@ -3,6 +3,14 @@
 This README documents how I set up a **ZED camera** on **Ubuntu 22.04 + ROS 2 Humble** and verified everything in **RViz2**.  
 It covers: installing the ZED SDK, installing the ROS 2 wrapper, and reproducing the visualizations shown in the screenshots below.
 
+## ZED Camera Results in RViz2
+
+### Sample image of the room
+![Depth Cloud](zedd2.png)
+
+### Sample image of the room 
+![Depth Registered](zedd3.png)
+
 ---
 
 ## ✅ System
@@ -108,43 +116,7 @@ rviz2
 
 ---
 
-## 6) What I see in RViz2 (proof of setup)
-
-### Body Tracking + Mapping
-![Body Tracking](images/rviz2_body_tracking.png)
-
-- Green **trajectory** shows the path over time.
-- Blue frustum represents the active camera FOV.
-- Body tracking is enabled and publishing skeletons on `/zed/zed_node/body_trk/skeletons`.
-
----
-
-### Depth Cloud + Camera Views
-![Depth Cloud](images/rviz2_depth_cloud.png)
-
-- Dense **PointCloud2** generated from the ZED depth.
-- Colorized mesh-like structure aligned with the camera.
-
----
-
-### Stereo & Depth (registered) Panels
-![Depth Registered](images/rviz2_depth_registered.png)
-
-- RViz2 Image panels for *color* and *depth (registered)*.
-- Useful for checking exposure, alignment, and QoS settings.
-
----
-
-## 7) Troubleshooting Tips
-- **No topics?** Ensure the ZED SDK is installed and the ROS 2 wrapper node is running.
-- **Empty images/point clouds?** Check RViz2 QoS (Reliable vs Best Effort). Try `Keep Last` history.
-- **TF errors / robot not visible?** Set `Fixed Frame` to `map` or `odom`, and enable `publish_tf:=true`.
-- **Body tracking not publishing?** Launch with `object_detection:=true` and a human body model.
-- **Low FPS?** Verify NVIDIA driver and CUDA. Close other GPU‑heavy apps.
-
----
-
-## 8) References
+## 6) References
 - ZED SDK (Stereolabs) — installer for Ubuntu 22.04  
 - `zed-ros2-wrapper` — ROS 2 integration (apt or source)
 
